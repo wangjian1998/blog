@@ -1,0 +1,63 @@
+body{
+   color:#2a6496;
+}
+
+.container{
+    margin-top:30px;
+}
+
+
+
+form{
+    width: 550px;
+    margin: auto;
+}
+
+h2 {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+/* 主页 */
+.nav{
+    margin-bottom:30px;
+}
+
+.post-wrapper{
+    width:600px;
+    margin:auto;
+   
+}
+
+.f-r{
+    float: right;
+}
+
+/* 注册页 */
+
+.pos{
+    position: relative;
+}
+
+
+.pos-a{
+    position: absolute;
+    top:0;
+    right: 15px;
+}
+
+.tip{
+    height:34px;
+    color:red;
+    font-size:12px;
+}
+
+.dis-none{
+    display:none;
+}
+
+.dis-blo{
+    display: block;
+}
+

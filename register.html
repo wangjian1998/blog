@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>用户注册</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>用户注册</h2>
+        <form action="" class="form-horizontal">
+            <div class="form-group">
+                <label for="phone" class="control-label col-sm-2">手机号:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="请输入手机号" id="phone">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="control-label col-sm-2">验证码:</label>
+                <div class="col-sm-10 pos">
+                    <input type="text" class="form-control" placeholder="请输入验证码" id="auth_code">
+                    <button class="btn btn-default pos-a">获取验证码</button>
+                </div>
+
+
+            </div>
+            <div class="form-group">
+                <label for="password" class="control-label col-sm-2">密码:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" placeholder="请输入密码" id="password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="confirm_pass" class="control-label col-sm-2">确认密码:</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" placeholder="再次输入密码" id="confirm_pass">
+                </div>
+            </div>
+            <div class="col-sm-offset-2 col-sm-10">
+                <p class="tip" id="tip"></p>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-7">
+                    <button type="submit" class="btn btn-primary" id="register">注册</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
