@@ -1,14 +1,16 @@
-body{
-   color:#2a6496;
+body {
+    color: #2a6496;
 }
 
-.container{
-    margin-top:30px;
+.container {
+    margin-top: 30px;
 }
 
+a {
+    cursor: pointer;
+}
 
-
-form{
+form {
     width: 550px;
     margin: auto;
 }
@@ -18,46 +20,86 @@ h2 {
     text-align: center;
 }
 
-
 /* 主页 */
-.nav{
-    margin-bottom:30px;
+
+.nav {
+    margin-bottom: 30px;
 }
 
-.post-wrapper{
-    width:600px;
-    margin:auto;
-   
+.post-wrapper {
+    width: 600px;
+    margin: auto;
 }
 
-.f-r{
+.f-r {
     float: right;
 }
 
 /* 注册页 */
 
-.pos{
+.pos {
     position: relative;
 }
 
-
-.pos-a{
+.pos-a {
     position: absolute;
-    top:0;
+    top: 0;
     right: 15px;
 }
 
-.tip{
-    height:34px;
-    color:red;
-    font-size:12px;
+.tip {
+    height: 34px;
+    color: red;
+    font-size: 12px;
 }
 
-.dis-none{
-    display:none;
+.dis-none {
+    display: none;
 }
 
-.dis-blo{
+.dis-blo {
     display: block;
 }
 
+/* 详情页 */
+
+.title {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.time {
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+    margin: 20px auto;
+    /* text-align: center; */
+    text-indent: 2em;
+    font-size: 14px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 1%;
+    background: #e0e0e0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    border: darkgreen solid 1px;
+}
+
+.list-group {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    width: 60%;
+    margin: 2% 0 2% 20%;
+    padding: 1%;
+    background: #e0e0e0;
+    border-radius: 6px;
+    border: darkgreen solid 1px;
+}
+
+.publish{
+    margin:15px auto;
+}
